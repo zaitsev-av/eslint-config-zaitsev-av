@@ -39,7 +39,7 @@ module.exports = {
             'error',
             { css: 'always', json: 'always', scss: 'always', svg: 'always' },
         ],
-
+        'import/no-named-as-default': ['error', { 'allowDeclarations': true }],
         'import/no-duplicates': 'off',
         'import/order': 'off',
         'import/prefer-default-export': 'off',
