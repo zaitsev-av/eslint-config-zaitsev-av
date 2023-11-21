@@ -1,10 +1,12 @@
 module.exports = {
+
     env: {
         amd: true,
         browser: true,
         es2021: true,
         node: true,
     },
+
     extends: [
         'eslint:recommended',
         'plugin:react/recommended',
@@ -16,7 +18,9 @@ module.exports = {
         'plugin:prettier/recommended',
         'plugin:perfectionist/recommended-natural',
     ],
+
     parser: '@typescript-eslint/parser',
+
     parserOptions: {
         ecmaFeatures: {
             jsx: true,
@@ -24,7 +28,9 @@ module.exports = {
         ecmaVersion: 12,
         sourceType: 'module',
     },
+
     plugins: ['react', '@typescript-eslint', 'import', 'perfectionist'],
+
     rules: {
         'arrow-parens': 'off',
         'consistent-return': 'off',
@@ -33,6 +39,7 @@ module.exports = {
             'error',
             { css: 'always', json: 'always', scss: 'always', svg: 'always' },
         ],
+
         'import/no-duplicates': 'off',
         'import/order': 'off',
         'import/prefer-default-export': 'off',
