@@ -39,8 +39,6 @@ module.exports = {
             'error',
             { css: 'always', json: 'always', scss: 'always', svg: 'always' },
         ],
-        "@zaitsev_av/no-default-import/custom-no-named-as-default": "error",
-        'import/no-duplicates': 'off',
         'import/order': 'off',
         'import/prefer-default-export': 'off',
         'max-lines': ['error', 300],
