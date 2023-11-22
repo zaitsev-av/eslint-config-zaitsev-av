@@ -21,7 +21,8 @@
     "eslint-plugin-import": "^2.25.2",
     "eslint-import-resolver-typescript": "^3.5.0",
     "eslint-import-resolver-node": "^0.3.6",
-    "eslint-plugin-perfectionist": "^2.4.0"
+    "eslint-plugin-perfectionist": "^2.4.0",
+    "@zaitsev_av/eslint-plugin-no-default-import": "^0.0.1"
   },
   "keywords": [
     "eslint"
