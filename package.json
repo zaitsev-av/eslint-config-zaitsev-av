@@ -22,7 +22,7 @@
     "eslint-import-resolver-typescript": "^3.5.0",
     "eslint-import-resolver-node": "^0.3.6",
     "eslint-plugin-perfectionist": "^2.4.0",
-    "@zaitsev_av/eslint-plugin-no-default-import": "^0.0.1"
+    "@zaitsev_av/eslint-plugin-no-default-import": "^0.0.2"
   },
   "keywords": [
     "eslint"
