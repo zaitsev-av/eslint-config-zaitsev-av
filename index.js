@@ -28,7 +28,7 @@ module.exports = {
         sourceType: 'module',
     },
 
-    plugins: ['react', '@typescript-eslint', 'import', 'perfectionist'],
+    plugins: ['react', '@typescript-eslint', 'import', 'perfectionist', 'prettier'],
 
     rules: {
         'arrow-parens': 'off',
