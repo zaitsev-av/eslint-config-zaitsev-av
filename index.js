@@ -12,7 +12,6 @@ module.exports = {
         'plugin:react/recommended',
         'plugin:react/jsx-runtime',
         'plugin:react-hooks/recommended',
-        'prettier/prettier',
         'plugin:import/recommended',
         'plugin:import/typescript',
         'plugin:prettier/recommended',
